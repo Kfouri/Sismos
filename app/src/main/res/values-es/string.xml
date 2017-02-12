@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sismos</string>
+    <string name="fecha">Fecha: </string>
+    <string name="buscando_sismos">Buscando sismos. Por favor espere...</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8178489486911148/2004915518</string>
+    <string name="action_app">Más Apps"</string>
+    <string name="action_compartir">Compartir"</string>
+    <string name="compartir">Desearía compartir contigo esta aplicación.</string>
+
+    <string-array name="orden">
+        <item>Fecha</item>
+        <item>Magnitud</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

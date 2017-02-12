@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RelativeLayout xmlns:android='http://schemas.android.com/apk/res/android'
+    android:layout_width="match_parent"
+    android:layout_height='fill_parent'
+    android:paddingTop='20sp'
+    >
+
+    <TextView
+        android:id="@+id/textFechaDesde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha Desde:"
+        android:layout_marginLeft='40sp'
+        />
+
+    <EditText
+        android:id='@+id/EditFechaDesde'
+        android:layout_width='wrap_content'
+        android:layout_height='wrap_content'
+        android:text="04/12/2015"
+        android:layout_below="@+id/textFechaDesde"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_marginLeft='40sp'
+/>
+
+    <Button
+        android:id='@+id/btn_fechaDesde'
+        android:layout_width='80dp'
+        android:layout_height='wrap_content'
+        android:text='SET'
+        android:layout_below="@+id/textFechaDesde"
+        android:layout_toRightOf="@id/EditFechaDesde"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/textMagnitudDesde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Magnitud Desde:"
+        android:layout_below="@+id/btn_fechaDesde"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft='40sp'/>
+
+    <EditText
+        android:id='@+id/magnitudMinima'
+        android:layout_width='50dp'
+        android:layout_height='wrap_content'
+        android:layout_below="@+id/btn_fechaDesde"
+        android:layout_toRightOf="@id/textMagnitudDesde"
+        android:gravity="right"
+        android:text=""
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:id="@+id/textMagnitudHasta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Magnitud Desde:"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/magnitudMinima"
+        android:layout_marginLeft='40sp'
+        />
+
+    <EditText
+        android:id='@+id/magnitudMaxima'
+        android:layout_width='50dp'
+        android:layout_height='wrap_content'
+        android:layout_below="@+id/magnitudMinima"
+        android:layout_toRightOf="@id/textMagnitudHasta"
+        android:gravity="right"
+        android:text=""
+        android:inputType="numberDecimal"
+        />
+
+    <TextView
+        android:id="@+id/textOrden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ordenado por:"
+        android:layout_below="@+id/magnitudMaxima"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft='40sp'
+        />
+
+    <Spinner
+        android:id="@+id/spnOrden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textOrden"
+        android:layout_alignTop="@+id/textOrden" />
+
+</RelativeLayout>

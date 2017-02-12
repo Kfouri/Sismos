@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Earthquakes</string>
+    <string name="fecha">Date: </string>
+    <string name="buscando_sismos">Looking for earthquakes. Please wait...</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8178489486911148/2004915518</string>
+    <string name="action_app">More Apps"</string>
+    <string name="action_compartir">Share app"</string>
+    <string name="compartir">I wish to share with you this application.</string>
+
+    <string-array name="orden">
+        <item>Date</item>
+        <item>Mag</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>
